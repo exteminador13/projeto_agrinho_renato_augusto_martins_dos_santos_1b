@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agrinho — Futuro Sustentável Agro Forte</title>
+  <meta name="description" content="Agronegócio sustentável, tecnologia verde e futuro forte para o campo brasileiro.">
+  <link rel="stylesheet" href="agrinho.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Pular para conteúdo principal</a>
+
+<!-- NAV -->
+<nav role="navigation" aria-label="Menu principal">
+  <a href="#" class="nav-logo" aria-label="Agrinho - página inicial">Agro<span>inho</span></a>
+  <ul class="nav-links" role="list">
+    <li><a href="#pilares">Pilares</a></li>
+    <li><a href="#mapa-section">Regiões</a></li>
+    <li><a href="#quiz-section">Quiz</a></li>
+    <li><a href="#libras-section">Libras</a></li>
+    <li><a href="#timeline-section">História</a></li>
+  </ul>
+  <button class="contrast-btn" onclick="toggleContraste()" aria-label="Alternar alto contraste">⊕ Contraste</button>
+</nav>
+
+<!-- HERO -->
+<main id="main">
+<section id="hero" aria-labelledby="hero-titulo">
+  <canvas class="hero-canvas" id="particleCanvas" aria-hidden="true"></canvas>
+  <div class="hero-content">
+    <p class="hero-eyebrow" aria-label="Programa Agrinho 2025">◆ PROGRAMA AGRINHO 2025</p>
+    <h1 id="hero-titulo">
+      Futuro<br>
+      <span class="verde">Sustentável,</span><br>
+      <span class="dourado">Agro Forte</span>
+    </h1>
+    <p class="hero-sub">Do campo para o mundo — tecnologia verde, produção responsável e um Brasil que alimenta o futuro com sabedoria e força.</p>
+    <div class="hero-ctas">
+      <a href="#pilares" class="btn-primary">Explorar o Projeto</a>
+      <a href="#libras-section" class="btn-ghost">🤟 Versão em Libras</a>
+    </div>
+  </div>
+  <div class="scroll-hint" aria-hidden="true">
+    <span>ROLE</span>
+    <div class="scroll-dot"></div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats" aria-label="Dados do agronegócio brasileiro">
+  <div class="stats-grid">
+    <div class="stat-item">
+      <span class="stat-num" aria-label="27 por cento do PIB">27%</span>
+      <span class="stat-label">do PIB Brasileiro</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">210M</span>
+      <span class="stat-label">Pessoas Alimentadas</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">66%</span>
+      <span class="stat-label">Energia Renovável no Setor</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">8.600</span>
+      <span class="stat-label">Espécies Protegidas</span>
+    </div>
+  </div>
+</section>
+
+<!-- PILARES -->
+<section id="pilares" aria-labelledby="pilares-titulo">
+  <div style="padding: 7rem 2rem; max-width: 1200px; margin: 0 auto;">
+    <div class="pilares-header">
+      <span class="section-label">Os Fundamentos</span>
+      <h2 id="pilares-titulo">Pilares do<br>Agro Sustentável</h2>
+    </div>
+    <div class="pilares-grid" role="list">
+
+      <article class="pilar-card" style="--card-color: #5BAF5A" role="listitem" tabindex="0" aria-label="Pilar: Água">
+        <span class="pilar-icon" aria-hidden="true">💧</span>
+        <h3>Água Inteligente</h3>
+        <p>Irrigação de precisão e captação de chuva reduzem o consumo em até 60% mantendo a produtividade máxima nas lavouras.</p>
+        <span class="pilar-tag">CONSERVAÇÃO HÍDRICA</span>
+      </article>
+
+      <article class="pilar-card" style="--card-color: #C8A94A" role="listitem" tabindex="0" aria-label="Pilar: Solo">
+        <span class="pilar-icon" aria-hidden="true">🌱</span>
+        <h3>Solo Vivo</h3>
+        <p>Compostagem, rotação de culturas e práticas agroecológicas devolvem a vida e fertilidade natural ao solo brasileiro.</p>
+        <span class="pilar-tag">AGROECOLOGIA</span>
+      </article>
+
+      <article class="pilar-card" style="--card-color: #80CBC4" role="listitem" tabindex="0" aria-label="Pilar: Tecnologia">
+        <span class="pilar-icon" aria-hidden="true">🛰️</span>
+        <h3>Tecnologia no Campo</h3>
+        <p>Drones, sensores IoT e inteligência artificial monitoram plantações em tempo real, prevenindo pragas e otimizando colheitas.</p>
+        <span class="pilar-tag">AGTECH</span>
+      </article>
+
+      <article class="pilar-card" style="--card-color: #EF9A9A" role="listitem" tabindex="0" aria-label="Pilar: Comunidade">
+        <span class="pilar-icon" aria-hidden="true">🤝</span>
+        <h3>Comunidade Forte</h3>
+        <p>Agricultura familiar, cooperativas e inclusão social formam a base humana de um agronegócio verdadeiramente sustentável.</p>
+        <span class="pilar-tag">INCLUSÃO SOCIAL</span>
+      </article>
+
+      <article class="pilar-card" style="--card-color: #A5D6A7" role="listitem" tabindex="0" aria-label="Pilar: Biodiversidade">
+        <span class="pilar-icon" aria-hidden="true">🦋</span>
+        <h3>Biodiversidade</h3>
+        <p>Corredores ecológicos, reservas legais e espécies nativas convivem em harmonia com a produção agropecuária moderna.</p>
+        <span class="pilar-tag">MEIO AMBIENTE</span>
+      </article>
+
+      <article class="pilar-card" style="--card-color: #FFCC80" role="listitem" tabindex="0" aria-label="Pilar: Energia">
+        <span class="pilar-icon" aria-hidden="true">☀️</span>
+        <h3>Energia Limpa</h3>
+        <p>Bioenergia, painéis solares e biogás de resíduos tornam as propriedades rurais autossuficientes e de baixo carbono.</p>
+        <span class="pilar-tag">ENERGIA VERDE</span>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- MAPA INTERATIVO -->
+<section id="mapa-section" aria-labelledby="mapa-titulo">
+  <div class="mapa-inner">
+    <div class="mapa-svg-wrap">
+      <svg id="agro-map" viewBox="0 0 400 500" aria-label="Mapa interativo das regiões agrícolas do Brasil" role="img">
+        <defs>
+          <filter id="glow">
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <path class="map-region" id="r-norte"
+          d="M60,40 L200,30 L240,50 L260,100 L240,150 L200,160 L160,170 L100,160 L60,130 Z"
+          data-name="Norte" data-info="Amazônia Legal: floresta, extrativismo sustentável e piscicultura"
+          aria-label="Região Norte" role="button" tabindex="0"/>
+        <path class="map-region" id="r-nordeste"
+          d="M200,160 L280,120 L340,140 L360,200 L320,260 L260,270 L240,150 Z"
+          data-name="Nordeste" data-info="Caatinga e sertão: irrigação, fruticultura e energia solar"
+          aria-label="Região Nordeste" role="button" tabindex="0"/>
+        <path class="map-region" id="r-co"
+          d="M100,160 L200,160 L240,150 L260,270 L240,330 L180,350 L120,340 L80,280 Z"
+          data-name="Centro-Oeste" data-info="Cerrado do agronegócio: soja, milho e Pantanal"
+          aria-label="Centro-Oeste" role="button" tabindex="0"/>
+        <path class="map-region" id="r-sudeste"
+          d="M180,350 L240,330 L280,360 L300,400 L260,430 L200,420 L170,390 Z"
+          data-name="Sudeste" data-info="Laranja, café e cana-de-açúcar — motor da economia rural"
+          aria-label="Região Sudeste" role="button" tabindex="0"/>
+        <path class="map-region" id="r-sul"
+          d="M120,340 L180,350 L170,390 L200,420 L180,460 L130,470 L100,440 L90,390 Z"
+          data-name="Sul" data-info="Trigo, uva e agricultura familiar: tecnologia e tradição"
+          aria-label="Região Sul" role="button" tabindex="0"/>
+        <text x="130" y="105" fill="rgba(247,243,232,0.5)" font-size="10" font-family="DM Sans" text-anchor="middle" pointer-events="none">NORTE</text>
+        <text x="290" y="200" fill="rgba(247,243,232,0.5)" font-size="9"  font-family="DM Sans" text-anchor="middle" pointer-events="none">NE</text>
+        <text x="170" y="260" fill="rgba(247,243,232,0.5)" font-size="9"  font-family="DM Sans" text-anchor="middle" pointer-events="none">C-OESTE</text>
+        <text x="240" y="390" fill="rgba(247,243,232,0.5)" font-size="9"  font-family="DM Sans" text-anchor="middle" pointer-events="none">SE</text>
+        <text x="145" y="415" fill="rgba(247,243,232,0.5)" font-size="9"  font-family="DM Sans" text-anchor="middle" pointer-events="none">SUL</text>
+      </svg>
+    </div>
+    <div class="mapa-info">
+      <span class="section-label">Clique nas Regiões</span>
+      <h2 id="mapa-titulo">Agro Forte em Todo o Brasil</h2>
+      <p>Cada região tem sua vocação agrícola única. Explore o mapa e descubra como a sustentabilidade se expressa de norte a sul do país.</p>
+      <div id="region-detail" role="region" aria-live="polite" aria-label="Informações da região selecionada">
+        <h4>↑ Selecione uma Região</h4>
+        <p>Clique em qualquer área do mapa para conhecer a agricultura daquela região.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUIZ -->
+<section id="quiz-section" aria-labelledby="quiz-titulo">
+  <div style="max-width: 800px; margin: 0 auto; padding: 7rem 2rem;">
+    <div style="text-align:center; margin-bottom: 3rem;">
+      <span class="section-label">Teste Seus Conhecimentos</span>
+      <h2 id="quiz-titulo">Quiz<br>Sustentabilidade Agro</h2>
+    </div>
+    <div class="quiz-box" role="main" aria-label="Quiz interativo">
+      <div class="quiz-progress" id="quiz-progress" aria-label="Progresso do quiz" role="progressbar"></div>
+      <div id="quiz-content">
+        <p class="quiz-q" id="quiz-pergunta" aria-live="polite"></p>
+        <div class="quiz-opts" id="quiz-opcoes" role="group" aria-label="Opções de resposta"></div>
+        <div class="quiz-feedback" id="quiz-feedback" role="alert"></div>
+        <div class="quiz-next" id="quiz-next">
+          <button class="btn-primary" onclick="proximaQ()" aria-label="Próxima pergunta">Próxima →</button>
+        </div>
+      </div>
+      <div class="quiz-result" id="quiz-result" role="region" aria-label="Resultado do quiz">
+        <div class="big" id="quiz-emoji"></div>
+        <h3 id="quiz-result-titulo"></h3>
+        <p id="quiz-result-msg" style="color: rgba(247,243,232,0.65); margin-bottom: 2rem;"></p>
+        <button class="btn-primary" onclick="reiniciarQuiz()">Tentar Novamente</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LIBRAS -->
+<section id="libras-section" aria-labelledby="libras-titulo">
+  <div class="libras-inner">
+    <div class="libras-header">
+      <span class="section-label">Acessibilidade — Língua de Sinais</span>
+      <h2 id="libras-titulo" style="color:#fff">Glossário em Libras</h2>
+      <p>Conteúdo acessível para a comunidade surda. Passe o mouse sobre cada palavra para ver a descrição do sinal em Libras.</p>
+    </div>
+    <div class="libras-grid" role="list">
+
+      <div class="libras-card" role="listitem" tabindex="0" aria-label="Palavra: Sustentável">
+        <span class="glyph" aria-hidden="true">🌿</span>
+        <div class="word">Sustentável</div>
+        <div class="sign-desc">LIBRAS</div>
+        <div class="anim-overlay" aria-hidden="true">
+          <span class="hand">🤲</span>
+          <span>Palmas unidas, movimento circular para cima — simbolizando ciclo e preservação</span>
+        </div>
+      </div>
+
+      <div class="libras-card" role="listitem" tabindex="0" aria-label="Palavra: Água">
+        <span class="glyph" aria-hidden="true">💧</span>
+        <div class="word">Água</div>
+        <div class="sign-desc">LIBRAS</div>
+        <div class="anim-overlay" aria-hidden="true">
+          <span class="hand">🖐️</span>
+          <span>Mão em "W" tocando os lábios — sinal padrão de Libras para água</span>
+        </div>
+      </div>
+
+      <div class="libras-card" role="listitem" tabindex="0" aria-label="Palavra: Plantação">
+        <span class="glyph" aria-hidden="true">🌾</span>
+        <div class="word">Plantação</div>
+        <div class="sign-desc">LIBRAS</div>
+        <div class="anim-overlay" aria-hidden="true">
+          <span class="hand">🌱</span>
+          <span>Mão fechada subindo aberta — simula a semente brotando da terra</span>
+        </div>
+      </div>
+
+      <div class="libras-card" role="listitem" tabindex="0" aria-label="Palavra: Colheita">
+        <span class="glyph" aria-hidden="true">🌽</span>
+        <div class="word">Colheita</div>
+        <div class="sign-desc">LIBRAS</div>
+        <div class="anim-overlay" aria-hidden="true">
+          <span class="hand">✋</span>
+          <span>Mãos simulando colher frutos — movimento de recolher para si</span>
+        </div>
+      </div>
+
+      <div class="libras-card" role="listitem" tabindex="0" aria-label="Palavra: Energia">
+        <span class="glyph" aria-hidden="true">⚡</span>
+        <div class="word">Energia</div>
+        <div class="sign-desc">LIBRAS</div>
+        <div class="anim-overlay" aria-hidden="true">
+          <span class="hand">👊</span>
+          <span>Punho fechado com vibração — transmite força e potência</span>
+        </div>
+      </div>
+
+      <div class="libras-card" role="listitem" tabindex="0" aria-label="Palavra: Campo">
+        <span class="glyph" aria-hidden="true">🏡</span>
+        <div class="word">Campo</div>
+        <div class="sign-desc">LIBRAS</div>
+        <div class="anim-overlay" aria-hidden="true">
+          <span class="hand">🙌</span>
+          <span>Braços abertos horizontalmente — amplitude do espaço rural</span>
+        </div>
+      </div>
+
+      <div class="libras-card" role="listitem" tabindex="0" aria-label="Palavra: Futuro">
+        <span class="glyph" aria-hidden="true">🚀</span>
+        <div class="word">Futuro</div>
+        <div class="sign-desc">LIBRAS</div>
+        <div class="anim-overlay" aria-hidden="true">
+          <span class="hand">👆</span>
+          <span>Dedo indicador apontando para frente e para cima — direção do futuro</span>
+        </div>
+      </div>
+
+      <div class="libras-card" role="listitem" tabindex="0" aria-label="Palavra: Brasil">
+        <span class="glyph" aria-hidden="true">🇧🇷</span>
+        <div class="word">Brasil</div>
+        <div class="sign-desc">LIBRAS</div>
+        <div class="anim-overlay" aria-hidden="true">
+          <span class="hand">🤙</span>
+          <span>Mão espalmada no peito com orgulho — sinal de identidade nacional</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="text-align:center; margin-top: 3rem; padding: 2rem; background: rgba(255,255,255,0.04); border-radius: 12px; border: 1px solid rgba(100,181,246,0.15);">
+      <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem; line-height: 1.6;">
+        ♿ Este site foi desenvolvido seguindo as diretrizes <strong style="color:#64B5F6">WCAG 2.1 AA</strong> e o <strong style="color:#64B5F6">Decreto 5.626/2005</strong> de acessibilidade para surdos.<br>
+        Navegação completa por teclado · Leitores de tela · Alto contraste · Legendas descritivas
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section id="timeline-section" aria-labelledby="timeline-titulo">
+  <span class="section-label">Uma Jornada no Tempo</span>
+  <h2 id="timeline-titulo">História do<br>Agro Brasileiro</h2>
+  <div class="timeline" role="list">
+
+    <div class="tl-item" role="listitem">
+      <div class="tl-dot" aria-hidden="true">◆</div>
+      <div class="tl-year">1500 — 1700</div>
+      <h3>As Primeiras Sementes</h3>
+      <p>Povos indígenas praticavam a agroecologia antes do nome existir — milho, mandioca e sistemas de pousio sustentavam toda a biodiversidade.</p>
+    </div>
+
+    <div class="tl-item" role="listitem">
+      <div class="tl-dot" aria-hidden="true">◆</div>
+      <div class="tl-year">1950 — 1970</div>
+      <h3>A Revolução Verde</h3>
+      <p>Mecanização e insumos químicos expandiram a produção, mas trouxeram desafios ambientais que o campo ainda enfrenta e supera.</p>
+    </div>
+
+    <div class="tl-item" role="listitem">
+      <div class="tl-dot" aria-hidden="true">◆</div>
+      <div class="tl-year">1990 — 2000</div>
+      <h3>Embrapa e a Ciência Tropical</h3>
+      <p>O Brasil provou que o cerrado podia produzir. Pesquisa nacional tornou o país líder em agricultura tropical de alta performance.</p>
+    </div>
+
+    <div class="tl-item" role="listitem">
+      <div class="tl-dot" aria-hidden="true">◆</div>
+      <div class="tl-year">2010 — 2020</div>
+      <h3>AgTech: O Campo Digital</h3>
+      <p>Startups agro, agricultura de precisão, drones e big data transformaram o produtor rural em um gestor de dados de alta tecnologia.</p>
+    </div>
+
+    <div class="tl-item" role="listitem">
+      <div class="tl-dot" aria-hidden="true">◆</div>
+      <div class="tl-year">2025 — HOJE</div>
+      <h3>Agro Sustentável Forte</h3>
+      <p>Carbono zero, rastreabilidade total e inclusão social: o futuro do campo brasileiro é verde, tecnológico, inclusivo e forte.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section id="cta-section" aria-labelledby="cta-titulo">
+  <div class="cta-inner">
+    <span class="section-label">Faça Parte</span>
+    <h2 id="cta-titulo">O Campo Precisa<br>de Você</h2>
+    <p>Cada escolha consciente — do que compramos ao que plantamos — constrói um futuro sustentável e forte para o Brasil.</p>
+    <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+      <a href="#pilares" class="btn-primary">🌱 Conhecer os Pilares</a>
+      <a href="#quiz-section" class="btn-ghost">🎯 Fazer o Quiz</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <p>Agrinho 2025 — Futuro Sustentável, Agro Forte &nbsp;·&nbsp; Acessível em Libras &nbsp;·&nbsp; WCAG 2.1 AA</p>
+</footer>
+
+<!-- LIBRAS FLOATING BUTTON -->
+<div id="libras-bar" role="complementary" aria-label="Assistente Libras">
+  <div id="libras-panel" role="dialog" aria-modal="false" aria-label="Painel de acessibilidade Libras">
+    <h3>🤟 LIBRAS — ACESSIBILIDADE</h3>
+    <div class="libras-avatar">
+      <span class="hand-anim" aria-hidden="true">🤟</span>
+    </div>
+    <p class="libras-msg">Olá! Este site tem acessibilidade completa para surdos. Role para <strong>Glossário Libras</strong> para ver os sinais. Use <strong>Tab</strong> para navegar por teclado.</p>
+  </div>
+  <button id="libras-btn" onclick="toggleLibras()" aria-expanded="false" aria-controls="libras-panel">
+    🤟 Libras
+  </button>
+</div>
+
+<script src="agrinho.js"></script>
+</body>
+</html>
